@@ -1,0 +1,16 @@
+<div class="dropdown d-inline-block">
+    <a class="widget-header" style="margin-right: 15px;">
+        <div class="icon icon-sm rounded-circle border"><i class="fa fa-shopping-cart"></i></div>
+        <span class="badge badge-pill badge-danger notify">0</span>
+    </a>
+    <a href="#" class="icontext dropdown-toggle" data-toggle="dropdown" aria-expanded="false" (click)="isCollapsed = !isCollapsed">
+        <img class="icon icon-sm rounded-circle" src="../../../../../../../assets/images/avatars/avatar2.jpg">
+    </a>
+    <div class="abrirMenu" [ngClass]="{'dropdown-menu' : isCollapsed}">
+        <a class="dropdown-item" href="#">Meu Perfil</a>
+        <a class="dropdown-item" href="#">Meus Pedidos</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item sair" href="#">Sair</a>
+    </div>
+</div>
+    

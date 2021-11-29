@@ -1,0 +1,21 @@
+.abrirMenu{
+    position: absolute; 
+    will-change: transform; 
+    top: 22px; 
+    left: -85px; 
+    transform: translate3d(150px, 32px, 0px);
+    background-color: #F5F5F5;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 5px;        
+}
+
+.dropdown-item:hover{
+    background-color: #1b6ec2;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.dropdown-item{
+    padding-bottom: 7px;
+}
