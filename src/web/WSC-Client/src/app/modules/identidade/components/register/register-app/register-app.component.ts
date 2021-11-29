@@ -2,19 +2,15 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-menu-off',
-  templateUrl: './menu-off.component.html',
-  styleUrls: ['./menu-off.component.css']
+  selector: 'app-register-app',
+  templateUrl: './register-app.component.html',
+  styleUrls: ['./register-app.component.css']
 })
-export class MenuOffComponent implements OnInit {
+export class RegisterAppComponent implements OnInit {
 
   constructor(private router: Router) { }
 
   ngOnInit() {
-  }
-
-  registro(){
-    this.router.navigate(['registro']);
   }
 
   login(){

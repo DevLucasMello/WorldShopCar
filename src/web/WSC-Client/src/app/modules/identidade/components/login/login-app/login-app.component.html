@@ -1,28 +1,23 @@
 <section class="section-conten padding-y container" style="min-height:35vh">
-
-  <div class="card mx-auto" style="max-width: 380px; margin-top: 100px;">
-      
+  <div class="card mx-auto" style="max-width: 380px; margin-top: 100px;">      
       <div class="card-body">
           <h4 class="card-title mb-4">Seja bem vindo!</h4>
           <form>
               <div class="form-group">
                   <label></label>
-                  <input class="form-control" />
+                  <input class="form-control" placeholder="e-mail"/>
                   <span class="text-danger"></span>
               </div>
-
               <div class="form-group">
                   <label></label>
-                  <input type="password" class="form-control" />
+                  <input type="password" class="form-control" placeholder="senha"/>
                   <span class="text-danger"></span>
               </div>
-
               <div class="form-group">
                   <button type="submit" class="btn btn-primary btn-block">Entrar</button>
               </div>
           </form>
       </div>
-      <div class="card-footer text-center">Ainda não tem uma conta?<a href="#"> Criar uma conta</a></div>
+      <div class="card-footer text-center">Ainda não tem uma conta?<a href="javascript:void(0)" (click)="registro()"> Criar uma conta</a></div>
   </div>
-
 </section>

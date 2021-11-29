@@ -9,6 +9,7 @@ import { CollapseModule } from 'ngx-bootstrap/collapse';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './components/root/app.component';
+import { HomeComponent } from '../vitrine/components/home/home.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { AppComponent } from './components/root/app.component';
     FooterComponent,
     MenuComponent,
     MenuOnComponent,
-    MenuOffComponent
+    MenuOffComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
