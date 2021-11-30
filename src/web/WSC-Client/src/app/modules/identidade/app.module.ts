@@ -10,6 +10,7 @@ import { CollapseModule } from 'ngx-bootstrap/collapse';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './components/root/app.component';
 import { HomeComponent } from '../vitrine/components/home/home.component';
+import { DetalheProdutoComponent } from '../produto/components/detalhe-produto/detalhe-produto.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { HomeComponent } from '../vitrine/components/home/home.component';
     MenuComponent,
     MenuOnComponent,
     MenuOffComponent,
-    HomeComponent
+    HomeComponent,
+    DetalheProdutoComponent
   ],
   imports: [
     BrowserModule,

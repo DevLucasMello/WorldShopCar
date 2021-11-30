@@ -1,34 +1,32 @@
 <section>
     <div>
-        <div style="background-image: url(images/banners/Template.jpg); height: 100%; background-position: center; background-repeat: no-repeat; background-size: cover">
+        <div style="background-image: url(../../../../../assets/images/banners/Template.jpg); height: 100%; background-position: center; background-repeat: no-repeat; background-size: cover">
             <div style="text-align: center;">
                 <img src="../../../../../assets/images/banners/nerdstore.png"/>
             </div>
         </div>
         <div class="container" style="padding-top: 20px">
-            <div class="row">
-              <div *ngFor="let prod of vitrine">
-                <div class="col-md-3">
-                  <div href="#" class="card card-product-grid">
-                      <a class="img-wrap">
-                          <img ng-src="{{prod.caminho}}" alt="prod.nome">
-                      </a>
-                      <figcaption class="info-wrap">
-                          <a class="title">
-                              <b>{{prod.nome}}</b>
-                          </a>
+            <div class="row">                
+                <div class="col-md-3" *ngFor="let prod of vitrine">
+                    <div class="card card-product-grid" (click)="detalhe()">
+                        <a class="img-wrap">
+                            <img [src]="prod.caminho" alt="nome">
+                        </a>
+                        <figcaption class="info-wrap">
+                            <a class="title">
+                                <b>{{prod.nome}}</b>
+                            </a>
 
-                          <small class="card-text">
-                            {{prod.estoque}}<br/><br/>
-                            {{prod.descricao}}
-                          </small>
-                      </figcaption>
-                      <div class="card-footer price mt-1">
-                          <h3>{{prod.valor}}</h3>
-                      </div>
-                  </div>
-                </div>
-              </div>
+                            <small class="card-text">
+                                {{prod.estoque}}<br/><br/>
+                                {{prod.descricao}}
+                            </small>
+                        </figcaption>
+                        <div class="card-footer price mt-1">
+                            <h3>{{prod.valor}}</h3>
+                        </div>
+                    </div>
+                </div> 
             </div>
         </div>
     </div>
