@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2IMAbhCNUGzk/KGJA5LPtCP4TXL5OviU/aZdnYTq9a+HCpdG9jXvQsTfO3nJPQKanirr7J5UnU5sqbxiROqlOw==",
+  "dgSpecHash": "YrGuLv4n74rb5Sq5FZSpsHM+Uv/smVzzIrFnWZnKGXDSfSbPm4uzERDCqPmaR04v5oZfKzUAuAfoPHtV+AyK3g==",
   "success": true,
-  "projectFilePath": "C:\\dev\\WorldShopCar-Microservices\\src\\services\\WSC.Identidade.API\\WSC.Identidade.API.csproj",
+  "projectFilePath": "C:\\dev\\WorldShopCar\\src\\services\\WSC.Identidade.API\\WSC.Identidade.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lucas\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.12\\microsoft.aspnetcore.authentication.jwtbearer.5.0.12.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hwxdnRP24EArKBVuLOZL/4ema2w7KsE5vulPAeVW4kw2dHTRMXEvyCEAYUAtL77u40WagMlVVqwIEX/lHt6LAg==",
+  "dgSpecHash": "+dSe9GPqGtU/gax36WcOpv5qWD4UKEI+381LEpfYm/oFJuXLieCr45OU37wp4ZFzbtsTruRRKOwiiQlORexUPQ==",
   "success": true,
-  "projectFilePath": "C:\\dev\\WorldShopCar-Microservices\\src\\services\\WSC.Pedido.API\\WSC.Pedido.API.csproj",
+  "projectFilePath": "C:\\dev\\WorldShopCar\\src\\services\\WSC.Pedido.API\\WSC.Pedido.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

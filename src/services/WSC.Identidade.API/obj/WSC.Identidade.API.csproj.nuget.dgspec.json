@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\dev\\WorldShopCar-Microservices\\src\\services\\WSC.Identidade.API\\WSC.Identidade.API.csproj": {}
+    "C:\\dev\\WorldShopCar\\src\\services\\WSC.Identidade.API\\WSC.Identidade.API.csproj": {}
   },
   "projects": {
-    "C:\\dev\\WorldShopCar-Microservices\\src\\services\\WSC.Identidade.API\\WSC.Identidade.API.csproj": {
+    "C:\\dev\\WorldShopCar\\src\\services\\WSC.Identidade.API\\WSC.Identidade.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\WorldShopCar-Microservices\\src\\services\\WSC.Identidade.API\\WSC.Identidade.API.csproj",
+        "projectUniqueName": "C:\\dev\\WorldShopCar\\src\\services\\WSC.Identidade.API\\WSC.Identidade.API.csproj",
         "projectName": "WSC.Identidade.API",
-        "projectPath": "C:\\dev\\WorldShopCar-Microservices\\src\\services\\WSC.Identidade.API\\WSC.Identidade.API.csproj",
+        "projectPath": "C:\\dev\\WorldShopCar\\src\\services\\WSC.Identidade.API\\WSC.Identidade.API.csproj",
         "packagesPath": "C:\\Users\\Lucas\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\WorldShopCar-Microservices\\src\\services\\WSC.Identidade.API\\obj\\",
+        "outputPath": "C:\\dev\\WorldShopCar\\src\\services\\WSC.Identidade.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -73,6 +73,8 @@
               "version": "[5.0.12, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.12, )"
             },
