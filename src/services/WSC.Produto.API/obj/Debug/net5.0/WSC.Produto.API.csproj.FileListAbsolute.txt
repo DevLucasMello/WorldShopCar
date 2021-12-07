@@ -55,3 +55,4 @@ C:\dev\WorldShopCar\src\services\WSC.Produto.API\obj\Debug\net5.0\WSC.Produto.AP
 C:\dev\WorldShopCar\src\services\WSC.Produto.API\obj\Debug\net5.0\WSC.Produto.API.dll
 C:\dev\WorldShopCar\src\services\WSC.Produto.API\obj\Debug\net5.0\ref\WSC.Produto.API.dll
 C:\dev\WorldShopCar\src\services\WSC.Produto.API\obj\Debug\net5.0\WSC.Produto.API.genruntimeconfig.cache
+C:\dev\WorldShopCar\src\services\WSC.Produto.API\obj\Debug\net5.0\WSC.Produto.API.csproj.AssemblyReference.cache
