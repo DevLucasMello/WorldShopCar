@@ -11,6 +11,17 @@ namespace WSC.Identidade.API.Configuration
         {
             services.AddControllers();
 
+            services.AddCors(options =>
+            {
+                options.AddPolicy("Development",
+                    builder =>
+                        builder
+                        .AllowAnyOrigin()
+                        .AllowAnyMethod()
+                        .AllowAnyHeader());
+                
+            });
+
             return services;
         }
 
@@ -19,6 +30,7 @@ namespace WSC.Identidade.API.Configuration
 
             if (env.IsDevelopment())
             {
+                app.UseCors("Development");
                 app.UseDeveloperExceptionPage();
             }
 
