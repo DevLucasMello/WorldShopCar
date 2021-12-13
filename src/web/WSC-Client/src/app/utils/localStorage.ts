@@ -2,7 +2,7 @@ export class LocalStorageUtils{
 
     public salvarDadosLocaisUsuario(response: any) {
         this.salvarTokenUsuario(response.accessToken);
-        this.salvarUsuario(response.userToken);
+        this.salvarUsuario(response.usuarioToken);
     }
 
     public salvarUsuario(user: string) {

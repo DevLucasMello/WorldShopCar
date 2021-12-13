@@ -21,8 +21,8 @@
               </div>
               <div class="col-lg-4">
                   <div class="d-flex justify-content-end">
-                    <app-menu-off *ngIf="true"></app-menu-off>
-                    <app-menu-on *ngIf="false"></app-menu-on>
+                    <app-menu-off *ngIf="!usuarioLogado"></app-menu-off>
+                    <app-menu-on *ngIf="usuarioLogado"></app-menu-on>
                   </div>   
               </div>
           </div>   

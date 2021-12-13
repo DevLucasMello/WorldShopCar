@@ -1,16 +1,98 @@
-import { Component, OnInit } from '@angular/core';
+import { AfterViewInit, Component, ElementRef, OnInit, ViewChildren } from '@angular/core';
+import { FormBuilder, FormControl, FormControlName, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
+import { ToastrService } from 'ngx-toastr';
+import { Usuario } from '../../../models/Usuario';
+import { ContaService } from '../../../services/conta-service';
+import { FormBaseComponent } from 'src/app/utils/form-base.component';
+import { CustomValidators } from 'ng2-validation';
 
 @Component({
   selector: 'app-register-app',
   templateUrl: './register-app.component.html',
   styleUrls: ['./register-app.component.css']
 })
-export class RegisterAppComponent implements OnInit {
+export class RegisterAppComponent extends FormBaseComponent implements OnInit, AfterViewInit {
 
-  constructor(private router: Router) { }
+  @ViewChildren(FormControlName, { read: ElementRef }) formInputElements: ElementRef[];
 
-  ngOnInit() {
+  errors: any[] = [];
+  cadastroForm: FormGroup;
+  usuario: Usuario;
+
+  constructor(private fb: FormBuilder,
+    private contaService: ContaService,
+    private router: Router,
+    private toastr: ToastrService) {
+
+    super();
+
+    this.validationMessages = {
+      email: {
+        required: 'Informe o e-mail',
+        email: 'Email inválido'
+      },
+      senha: {
+        required: 'Informe a senha',
+        rangeLength: 'A senha deve possuir entre 6 e 15 caracteres'
+      },
+      senhaConfirmacao: {
+        required: 'Informe a senha novamente',
+        rangeLength: 'A senha deve possuir entre 6 e 15 caracteres',
+        equalTo: 'As senhas não conferem'
+      }
+    };
+
+    super.configurarMensagensValidacaoBase(this.validationMessages);
+  }
+
+  ngOnInit(): void {
+
+    let senha = new FormControl('', [Validators.required, CustomValidators.rangeLength([6, 15])]);
+    let senhaConfirm = new FormControl('', [Validators.required, CustomValidators.rangeLength([6, 15]), CustomValidators.equalTo(senha)]);
+
+    this.cadastroForm = this.fb.group({
+      email: ['', [Validators.required, Validators.email]],
+      senha: senha,
+      senhaConfirmacao: senhaConfirm
+    });
+  }
+
+  ngAfterViewInit(): void {
+    super.configurarValidacaoFormularioBase(this.formInputElements, this.cadastroForm);
+  }
+
+  adicionarConta() {
+    if (this.cadastroForm.dirty && this.cadastroForm.valid) {
+      this.usuario = Object.assign({}, this.usuario, this.cadastroForm.value);
+
+      this.contaService.registro(this.usuario)
+        .subscribe(
+          sucesso => { this.processarSucesso(sucesso) },
+          falha => { this.processarFalha(falha) }
+        );
+
+      this.mudancasNaoSalvas = false;
+    }
+  }
+
+  processarSucesso(response: any) {
+    this.cadastroForm.reset();
+    this.errors = [];
+
+    this.contaService.LocalStorage.salvarDadosLocaisUsuario(response);
+
+    let toast = this.toastr.success('Registro realizado com Sucesso!', 'Bem vindo!!!');
+    if (toast) {
+      toast.onHidden.subscribe(() => {
+        window.location.href = '';
+      });
+    }
+  }
+
+  processarFalha(fail: any) {
+    this.errors = fail.error.errors;
+    this.toastr.error('Ocorreu um erro!', 'Opa :(');
   }
 
   login(){

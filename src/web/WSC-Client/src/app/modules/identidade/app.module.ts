@@ -18,10 +18,12 @@ import { HttpClientModule } from '@angular/common/http';
 import { CustomFormsModule } from 'ng2-validation';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { RegisterAppComponent } from './components/register/register-app/register-app.component';
 
 @NgModule({
   declarations: [
     LoginAppComponent,
+    RegisterAppComponent,
     AppComponent,
     FooterComponent,
     MenuComponent,

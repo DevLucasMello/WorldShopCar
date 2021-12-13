@@ -78,8 +78,8 @@ export class LoginAppComponent extends FormBaseComponent implements OnInit {
     if(toast){
       toast.onHidden.subscribe(() => {
         this.returnUrl
-        ? this.router.navigate([this.returnUrl])
-        : this.router.navigate(['']);
+        ? window.location.href = this.returnUrl
+        : window.location.href = '';
       });
     }
   }
