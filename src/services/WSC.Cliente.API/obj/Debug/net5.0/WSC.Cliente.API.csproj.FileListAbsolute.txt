@@ -27,7 +27,6 @@ C:\dev\WorldShopCar-Microservices\src\services\WSC.Cliente.API\obj\Debug\net5.0\
 C:\dev\WorldShopCar-Microservices\src\services\WSC.Cliente.API\obj\Debug\net5.0\ref\WSC.Cliente.API.dll
 C:\dev\WorldShopCar-Microservices\src\services\WSC.Cliente.API\obj\Debug\net5.0\WSC.Cliente.API.pdb
 C:\dev\WorldShopCar-Microservices\src\services\WSC.Cliente.API\obj\Debug\net5.0\WSC.Cliente.API.genruntimeconfig.cache
-C:\dev\WorldShopCar\src\services\WSC.Cliente.API\obj\Debug\net5.0\WSC.Cliente.API.pdb
 C:\dev\WorldShopCar\src\services\WSC.Cliente.API\bin\Debug\net5.0\appsettings.Development.json
 C:\dev\WorldShopCar\src\services\WSC.Cliente.API\bin\Debug\net5.0\appsettings.json
 C:\dev\WorldShopCar\src\services\WSC.Cliente.API\bin\Debug\net5.0\WSC.Cliente.API.exe
@@ -41,6 +40,7 @@ C:\dev\WorldShopCar\src\services\WSC.Cliente.API\bin\Debug\net5.0\Microsoft.Open
 C:\dev\WorldShopCar\src\services\WSC.Cliente.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\dev\WorldShopCar\src\services\WSC.Cliente.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\dev\WorldShopCar\src\services\WSC.Cliente.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\dev\WorldShopCar\src\services\WSC.Cliente.API\obj\Debug\net5.0\WSC.Cliente.API.csproj.AssemblyReference.cache
 C:\dev\WorldShopCar\src\services\WSC.Cliente.API\obj\Debug\net5.0\WSC.Cliente.API.GeneratedMSBuildEditorConfig.editorconfig
 C:\dev\WorldShopCar\src\services\WSC.Cliente.API\obj\Debug\net5.0\WSC.Cliente.API.AssemblyInfoInputs.cache
 C:\dev\WorldShopCar\src\services\WSC.Cliente.API\obj\Debug\net5.0\WSC.Cliente.API.AssemblyInfo.cs
@@ -54,4 +54,5 @@ C:\dev\WorldShopCar\src\services\WSC.Cliente.API\obj\Debug\net5.0\WSC.Cliente.AP
 C:\dev\WorldShopCar\src\services\WSC.Cliente.API\obj\Debug\net5.0\WSC.Cliente.API.csproj.CopyComplete
 C:\dev\WorldShopCar\src\services\WSC.Cliente.API\obj\Debug\net5.0\WSC.Cliente.API.dll
 C:\dev\WorldShopCar\src\services\WSC.Cliente.API\obj\Debug\net5.0\ref\WSC.Cliente.API.dll
+C:\dev\WorldShopCar\src\services\WSC.Cliente.API\obj\Debug\net5.0\WSC.Cliente.API.pdb
 C:\dev\WorldShopCar\src\services\WSC.Cliente.API\obj\Debug\net5.0\WSC.Cliente.API.genruntimeconfig.cache

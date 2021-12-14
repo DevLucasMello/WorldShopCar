@@ -27,7 +27,6 @@ C:\dev\WorldShopCar-Microservices\src\services\WSC.Pedido.API\obj\Debug\net5.0\W
 C:\dev\WorldShopCar-Microservices\src\services\WSC.Pedido.API\obj\Debug\net5.0\ref\WSC.Pedido.API.dll
 C:\dev\WorldShopCar-Microservices\src\services\WSC.Pedido.API\obj\Debug\net5.0\WSC.Pedido.API.pdb
 C:\dev\WorldShopCar-Microservices\src\services\WSC.Pedido.API\obj\Debug\net5.0\WSC.Pedido.API.genruntimeconfig.cache
-C:\dev\WorldShopCar\src\services\WSC.Pedido.API\obj\Debug\net5.0\WSC.Pedido.API.pdb
 C:\dev\WorldShopCar\src\services\WSC.Pedido.API\bin\Debug\net5.0\appsettings.Development.json
 C:\dev\WorldShopCar\src\services\WSC.Pedido.API\bin\Debug\net5.0\appsettings.json
 C:\dev\WorldShopCar\src\services\WSC.Pedido.API\bin\Debug\net5.0\WSC.Pedido.API.exe
@@ -41,6 +40,7 @@ C:\dev\WorldShopCar\src\services\WSC.Pedido.API\bin\Debug\net5.0\Microsoft.OpenA
 C:\dev\WorldShopCar\src\services\WSC.Pedido.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\dev\WorldShopCar\src\services\WSC.Pedido.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\dev\WorldShopCar\src\services\WSC.Pedido.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\dev\WorldShopCar\src\services\WSC.Pedido.API\obj\Debug\net5.0\WSC.Pedido.API.csproj.AssemblyReference.cache
 C:\dev\WorldShopCar\src\services\WSC.Pedido.API\obj\Debug\net5.0\WSC.Pedido.API.GeneratedMSBuildEditorConfig.editorconfig
 C:\dev\WorldShopCar\src\services\WSC.Pedido.API\obj\Debug\net5.0\WSC.Pedido.API.AssemblyInfoInputs.cache
 C:\dev\WorldShopCar\src\services\WSC.Pedido.API\obj\Debug\net5.0\WSC.Pedido.API.AssemblyInfo.cs
@@ -54,4 +54,5 @@ C:\dev\WorldShopCar\src\services\WSC.Pedido.API\obj\Debug\net5.0\WSC.Pedido.API.
 C:\dev\WorldShopCar\src\services\WSC.Pedido.API\obj\Debug\net5.0\WSC.Pedido.API.csproj.CopyComplete
 C:\dev\WorldShopCar\src\services\WSC.Pedido.API\obj\Debug\net5.0\WSC.Pedido.API.dll
 C:\dev\WorldShopCar\src\services\WSC.Pedido.API\obj\Debug\net5.0\ref\WSC.Pedido.API.dll
+C:\dev\WorldShopCar\src\services\WSC.Pedido.API\obj\Debug\net5.0\WSC.Pedido.API.pdb
 C:\dev\WorldShopCar\src\services\WSC.Pedido.API\obj\Debug\net5.0\WSC.Pedido.API.genruntimeconfig.cache
