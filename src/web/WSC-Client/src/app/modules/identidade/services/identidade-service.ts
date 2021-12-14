@@ -6,7 +6,7 @@ import { Usuario } from "../models/Usuario";
 import { catchError, map } from 'rxjs/operators';
 
 @Injectable()
-export class ContaService extends BaseService {
+export class IdentidadeService extends BaseService {
 
     constructor(private http: HttpClient) { super() }
     

@@ -14,11 +14,11 @@ export class MenuOffComponent implements OnInit {
   }
 
   registro(){
-    this.router.navigate(['registro']);
+    this.router.navigate(['identidade/registro']);
   }
 
   login(){
-    this.router.navigate(['login']);
+    this.router.navigate(['identidade/login']);
   }
 
 }

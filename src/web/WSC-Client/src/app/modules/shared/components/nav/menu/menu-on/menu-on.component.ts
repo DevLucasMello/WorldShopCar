@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { BaseService } from 'src/app/services/base.service';
 
 @Component({
@@ -10,14 +11,14 @@ export class MenuOnComponent extends BaseService implements OnInit {
 
   isCollapsed = true;
 
-  constructor() { super() }
+  constructor(private router: Router) { super() }
 
   ngOnInit() {
   }
 
   sair(){
     this.LocalStorage.limparDadosLocaisUsuario();
-    window.location.href = '';
+    this.router.navigate(['']);;
   }
 
 }

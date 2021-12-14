@@ -3,7 +3,7 @@ import { FormBuilder, FormControl, FormControlName, FormGroup, Validators } from
 import { Router } from '@angular/router';
 import { ToastrService } from 'ngx-toastr';
 import { Usuario } from '../../../models/Usuario';
-import { ContaService } from '../../../services/conta-service';
+import { IdentidadeService } from '../../../services/identidade-service';
 import { FormBaseComponent } from 'src/app/utils/form-base.component';
 import { CustomValidators } from 'ng2-validation';
 
@@ -21,7 +21,7 @@ export class RegisterAppComponent extends FormBaseComponent implements OnInit, A
   usuario: Usuario;
 
   constructor(private fb: FormBuilder,
-    private contaService: ContaService,
+    private identidadeService: IdentidadeService,
     private router: Router,
     private toastr: ToastrService) {
 
@@ -66,7 +66,7 @@ export class RegisterAppComponent extends FormBaseComponent implements OnInit, A
     if (this.cadastroForm.dirty && this.cadastroForm.valid) {
       this.usuario = Object.assign({}, this.usuario, this.cadastroForm.value);
 
-      this.contaService.registro(this.usuario)
+      this.identidadeService.registro(this.usuario)
         .subscribe(
           sucesso => { this.processarSucesso(sucesso) },
           falha => { this.processarFalha(falha) }
@@ -80,12 +80,12 @@ export class RegisterAppComponent extends FormBaseComponent implements OnInit, A
     this.cadastroForm.reset();
     this.errors = [];
 
-    this.contaService.LocalStorage.salvarDadosLocaisUsuario(response);
+    this.identidadeService.LocalStorage.salvarDadosLocaisUsuario(response);
 
     let toast = this.toastr.success('Registro realizado com Sucesso!', 'Bem vindo!!!');
     if (toast) {
       toast.onHidden.subscribe(() => {
-        window.location.href = '';
+        this.router.navigate(['']);
       });
     }
   }
@@ -96,7 +96,7 @@ export class RegisterAppComponent extends FormBaseComponent implements OnInit, A
   }
 
   login(){
-    this.router.navigate(['login']);
+    this.router.navigate(['identidade/login']);
   }
 
 }

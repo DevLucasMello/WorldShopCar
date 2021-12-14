@@ -20,9 +20,9 @@
                   </form>
               </div>
               <div class="col-lg-4">
-                  <div class="d-flex justify-content-end">
-                    <app-menu-off *ngIf="!usuarioLogado"></app-menu-off>
-                    <app-menu-on *ngIf="usuarioLogado"></app-menu-on>
+                  <div class="d-flex justify-content-end" [ngSwitch]="obterUsuarioLogado()">
+                    <app-menu-off *ngSwitchCase="false"></app-menu-off>
+                    <app-menu-on *ngSwitchCase="true"></app-menu-on>
                   </div>   
               </div>
           </div>   

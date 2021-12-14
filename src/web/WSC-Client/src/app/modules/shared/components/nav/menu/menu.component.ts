@@ -7,9 +7,7 @@ import { BaseService } from 'src/app/services/base.service';
   templateUrl: './menu.component.html',
   styleUrls: ['./menu.component.css']
 })
-export class MenuComponent extends BaseService implements OnInit{
-
-  usuarioLogado: boolean = false;
+export class MenuComponent extends BaseService implements OnInit{  
 
   constructor(private router: Router) { super() }
 
@@ -21,9 +19,9 @@ export class MenuComponent extends BaseService implements OnInit{
     this.router.navigate(['']);
   }
 
-  public obterUsuarioLogado(){    
-    if (this.LocalStorage.obterUsuario()) this.usuarioLogado = true
-    else this.usuarioLogado = false;
+  public obterUsuarioLogado(): boolean{    
+    if (this.LocalStorage.obterTokenUsuario()) return true
+    else return false;
   }
 
 }

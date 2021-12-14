@@ -3,7 +3,7 @@ import { FormBuilder, FormControlName, FormGroup, Validators } from '@angular/fo
 import { ActivatedRoute, Router } from '@angular/router';
 import { ToastrService } from 'ngx-toastr';
 import { Usuario } from '../../../models/Usuario';
-import { ContaService } from '../../../services/conta-service';
+import { IdentidadeService } from '../../../services/identidade-service';
 import { CustomValidators } from 'ngx-custom-validators';
 import { FormBaseComponent } from 'src/app/utils/form-base.component';
 
@@ -23,7 +23,7 @@ export class LoginAppComponent extends FormBaseComponent implements OnInit {
 
   constructor(private fb: FormBuilder,
     private router: Router, 
-    private contaService: ContaService,
+    private identidadeService: IdentidadeService,
     private toastr: ToastrService,
     private route: ActivatedRoute) {
 
@@ -60,7 +60,7 @@ export class LoginAppComponent extends FormBaseComponent implements OnInit {
     if (this.loginForm.dirty && this.loginForm.valid) {
       this.usuario = Object.assign({}, this.usuario, this.loginForm.value);
 
-      this.contaService.login(this.usuario)
+      this.identidadeService.login(this.usuario)
       .subscribe(
           sucesso => {this.processarSucesso(sucesso)},
           falha => {this.processarFalha(falha)}
@@ -72,14 +72,14 @@ export class LoginAppComponent extends FormBaseComponent implements OnInit {
     this.loginForm.reset();
     this.errors = [];
 
-    this.contaService.LocalStorage.salvarDadosLocaisUsuario(response);
+    this.identidadeService.LocalStorage.salvarDadosLocaisUsuario(response);
 
     let toast = this.toastr.success('Login realizado com Sucesso!', 'Bem vindo!!!');
     if(toast){
       toast.onHidden.subscribe(() => {
         this.returnUrl
-        ? window.location.href = this.returnUrl
-        : window.location.href = '';
+        ? this.router.navigate([this.returnUrl])
+        : this.router.navigate(['']);
       });
     }
   }
@@ -90,7 +90,7 @@ export class LoginAppComponent extends FormBaseComponent implements OnInit {
   }
 
   registro(){
-    this.router.navigate(['registro']);
+    this.router.navigate(['identidade/registro']);
   }
 
 }
