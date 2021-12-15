@@ -1,8 +1,10 @@
-export interface Vitrine{
-    id: string;
-    caminho: string;
-    nome: string;
-    descricao: string;
-    estoque: number;
-    valor: number;
-  }
+export interface Produto{
+  Id: string;
+  Nome: string;
+  Descricao: string;
+  Ativo: boolean;
+  Valor: number;
+  DataCadastro: Date;
+  Imagem: string;
+  QuantidadeEstoque: number;
+}

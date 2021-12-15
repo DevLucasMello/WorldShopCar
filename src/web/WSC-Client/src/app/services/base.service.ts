@@ -6,9 +6,9 @@ import { LocalStorageUtils } from "../utils/localStorage";
 export abstract class BaseService {
 
     public LocalStorage: LocalStorageUtils = new LocalStorageUtils();
-
-    //Microservicos
+    
     protected UrlServiceIdentidade: string = environment.apiIdentidade;
+    protected UrlServiceProduto: string = environment.apiProduto;
 
     protected ObterHeaderJson() {
         return {

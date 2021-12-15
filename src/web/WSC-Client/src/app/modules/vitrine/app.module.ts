@@ -13,6 +13,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NavModule } from '../shared/components/nav/nav.module';
 import { ErrorInterceptor } from 'src/app/services/error.handler.service';
 import { VitrineGuard } from './services/vitrine.guard';
+import { ProdutoService } from './services/produto-service';
+import { NgBrazil } from 'ng-brazil';
 
 export const httpInterceptorProviders = [
   { provide: HTTP_INTERCEPTORS, useClass: ErrorInterceptor, multi: true },
@@ -32,11 +34,13 @@ export const httpInterceptorProviders = [
     BrowserAnimationsModule,
     CollapseModule.forRoot(),
     ToastrModule.forRoot(),
-    HttpClientModule
+    HttpClientModule,
+    NgBrazil
   ],
   providers: [
     httpInterceptorProviders, 
-    VitrineGuard
+    VitrineGuard,
+    ProdutoService
   ],
   bootstrap: [AppComponent]
 })

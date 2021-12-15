@@ -4,7 +4,10 @@
 
 export const environment = {
   production: false,  
-  apiIdentidade: 'https://localhost:44350/api/identidade/'
+  apiIdentidade: 'https://localhost:44350/api/identidade/',
+  apiProduto: 'https://localhost:44357/api/produto/',
+
+  imagensProdutos: '../../../../../assets/images/produtos/'
 };
 
 /*

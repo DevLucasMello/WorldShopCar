@@ -40,7 +40,7 @@ export class LoginAppComponent extends FormBaseComponent implements OnInit {
       }
     };
 
-      this.returnUrl = this.route.snapshot.queryParams['returnUrl'];
+      this.returnUrl = this.route.snapshot.queryParams['returnUrl'].replace(',','/');      
 
       super.configurarMensagensValidacaoBase(this.validationMessages);
     }

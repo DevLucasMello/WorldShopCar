@@ -6,13 +6,13 @@ using System.Security.Claims;
 using System.Threading.Tasks;
 using WSC.Identidade.API.Models;
 using System.IdentityModel.Tokens.Jwt;
-using WSC.Identidade.API.Extensions;
 using Microsoft.Extensions.Options;
 using System.Text;
 using Microsoft.IdentityModel.Tokens;
 using System.Linq;
 using WSC.Identidade.API.Controllers;
 using System.Collections.Generic;
+using WSC.WebAPI.Core.Identidade;
 
 namespace WSC.Identidade.API.Configuration
 {    

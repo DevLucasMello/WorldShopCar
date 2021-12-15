@@ -9,3 +9,4 @@ C:\dev\WorldShopCar\src\building blocks\WSC.WebAPI.Core\obj\Debug\net5.0\WSC.Web
 C:\dev\WorldShopCar\src\building blocks\WSC.WebAPI.Core\obj\Debug\net5.0\WSC.WebAPI.Core.dll
 C:\dev\WorldShopCar\src\building blocks\WSC.WebAPI.Core\obj\Debug\net5.0\ref\WSC.WebAPI.Core.dll
 C:\dev\WorldShopCar\src\building blocks\WSC.WebAPI.Core\obj\Debug\net5.0\WSC.WebAPI.Core.pdb
+C:\dev\WorldShopCar\src\building blocks\WSC.WebAPI.Core\obj\Debug\net5.0\WSC.WebAPI.Core.csproj.AssemblyReference.cache

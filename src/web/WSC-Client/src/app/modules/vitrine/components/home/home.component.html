@@ -1,4 +1,4 @@
-<section>
+<section *ngIf="produtos">
     <div>
         <div style="background-image: url(../../../../../assets/images/banners/Template.jpg); height: 100%; background-position: center; background-repeat: no-repeat; background-size: cover">
             <div style="text-align: center;">
@@ -7,10 +7,10 @@
         </div>
         <div class="container" style="padding-top: 20px">
             <div class="row">                
-                <div class="col-md-3" *ngFor="let prod of vitrine">
-                    <div class="card card-product-grid" (click)="detalhe()">
+                <div class="col-md-3" *ngFor="let prod of produtos">
+                    <div class="card card-product-grid" (click)="detalhe(prod.id)">
                         <a class="img-wrap">
-                            <img [src]="prod.caminho" alt="nome">
+                            <img src="{{ imagem }}{{ prod.imagem }}" alt="prod.nome">
                         </a>
                         <figcaption class="info-wrap">
                             <a class="title">
@@ -18,12 +18,12 @@
                             </a>
 
                             <small class="card-text">
-                                {{prod.estoque}}<br/><br/>
+                                {{prod.quantidadeEstoque}}<br/><br/>
                                 {{prod.descricao}}
                             </small>
                         </figcaption>
                         <div class="card-footer price mt-1">
-                            <h3>{{prod.valor}}</h3>
+                            <h3>{{prod.valor | currencyBrazil}}</h3>
                         </div>
                     </div>
                 </div> 

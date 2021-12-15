@@ -9,7 +9,7 @@ import { VitrineGuard } from './services/vitrine.guard';
 const routes: Routes = [
   { path: '', component: HomeComponent},
   { path: 'identidade', loadChildren: () => import('../identidade/identidade.module').then(m => m.IdentidadeModule) },
-  { path: 'detalhe', component: DetalheProdutoComponent, canActivate: [VitrineGuard] },
+  { path: 'detalhe/:id', component: DetalheProdutoComponent, canActivate: [VitrineGuard] },
   
   { path: 'acesso-negado', component: AcessoNegadoComponent },
   { path: 'nao-encontrado', component: NotFoundComponent },
