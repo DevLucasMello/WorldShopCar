@@ -22,10 +22,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\building blocks\WSC.Core\WSC.Core.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Controllers\" />
+    <ProjectReference Include="..\..\building blocks\WSC.WebAPI.Core\WSC.WebAPI.Core.csproj" />
   </ItemGroup>
 
 </Project>

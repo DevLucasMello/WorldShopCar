@@ -51,7 +51,6 @@ C:\dev\WorldShopCar\src\services\WSC.Produto.API\bin\Debug\net5.0\Microsoft.Iden
 C:\dev\WorldShopCar\src\services\WSC.Produto.API\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\dev\WorldShopCar\src\services\WSC.Produto.API\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
 C:\dev\WorldShopCar\src\services\WSC.Produto.API\bin\Debug\net5.0\Microsoft.OpenApi.dll
-C:\dev\WorldShopCar\src\services\WSC.Produto.API\bin\Debug\net5.0\Newtonsoft.Json.dll
 C:\dev\WorldShopCar\src\services\WSC.Produto.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\dev\WorldShopCar\src\services\WSC.Produto.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\dev\WorldShopCar\src\services\WSC.Produto.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -90,3 +89,6 @@ C:\dev\WorldShopCar\src\services\WSC.Produto.API\obj\Debug\net5.0\WSC.Produto.AP
 C:\dev\WorldShopCar\src\services\WSC.Produto.API\obj\Debug\net5.0\ref\WSC.Produto.API.dll
 C:\dev\WorldShopCar\src\services\WSC.Produto.API\obj\Debug\net5.0\WSC.Produto.API.pdb
 C:\dev\WorldShopCar\src\services\WSC.Produto.API\obj\Debug\net5.0\WSC.Produto.API.genruntimeconfig.cache
+C:\dev\WorldShopCar\src\services\WSC.Produto.API\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\dev\WorldShopCar\src\services\WSC.Produto.API\bin\Debug\net5.0\WSC.WebAPI.Core.dll
+C:\dev\WorldShopCar\src\services\WSC.Produto.API\bin\Debug\net5.0\WSC.WebAPI.Core.pdb

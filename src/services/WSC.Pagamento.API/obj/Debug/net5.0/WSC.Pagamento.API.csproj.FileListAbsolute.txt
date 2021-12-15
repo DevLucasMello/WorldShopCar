@@ -40,7 +40,6 @@ C:\dev\WorldShopCar\src\services\WSC.Pagamento.API\bin\Debug\net5.0\Microsoft.Op
 C:\dev\WorldShopCar\src\services\WSC.Pagamento.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\dev\WorldShopCar\src\services\WSC.Pagamento.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\dev\WorldShopCar\src\services\WSC.Pagamento.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\dev\WorldShopCar\src\services\WSC.Pagamento.API\obj\Debug\net5.0\WSC.Pagamento.API.csproj.AssemblyReference.cache
 C:\dev\WorldShopCar\src\services\WSC.Pagamento.API\obj\Debug\net5.0\WSC.Pagamento.API.GeneratedMSBuildEditorConfig.editorconfig
 C:\dev\WorldShopCar\src\services\WSC.Pagamento.API\obj\Debug\net5.0\WSC.Pagamento.API.AssemblyInfoInputs.cache
 C:\dev\WorldShopCar\src\services\WSC.Pagamento.API\obj\Debug\net5.0\WSC.Pagamento.API.AssemblyInfo.cs

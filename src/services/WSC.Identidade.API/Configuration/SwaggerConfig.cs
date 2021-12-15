@@ -34,5 +34,4 @@ namespace WSC.Identidade.API.Configuration
             return app;
         }
     }
-
 }

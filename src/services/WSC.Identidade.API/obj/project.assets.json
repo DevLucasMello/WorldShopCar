@@ -1609,6 +1609,19 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "WSC.WebAPI.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "5.0.12"
+        },
+        "compile": {
+          "bin/placeholder/WSC.WebAPI.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WSC.WebAPI.Core.dll": {}
+        }
       }
     }
   },
@@ -5939,6 +5952,11 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "WSC.WebAPI.Core/1.0.0": {
+      "type": "project",
+      "path": "../../building blocks/WSC.WebAPI.Core/WSC.WebAPI.Core.csproj",
+      "msbuildProject": "../../building blocks/WSC.WebAPI.Core/WSC.WebAPI.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5952,7 +5970,8 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.12",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.12",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.11.1",
-      "Swashbuckle.AspNetCore >= 5.6.3"
+      "Swashbuckle.AspNetCore >= 5.6.3",
+      "WSC.WebAPI.Core >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5986,7 +6005,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\dev\\WorldShopCar\\src\\building blocks\\WSC.WebAPI.Core\\WSC.WebAPI.Core.csproj": {
+              "projectPath": "C:\\dev\\WorldShopCar\\src\\building blocks\\WSC.WebAPI.Core\\WSC.WebAPI.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

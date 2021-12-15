@@ -136,3 +136,5 @@ C:\dev\WorldShopCar\src\services\WSC.Identidade.API\obj\Debug\net5.0\WSC.Identid
 C:\dev\WorldShopCar\src\services\WSC.Identidade.API\obj\Debug\net5.0\ref\WSC.Identidade.API.dll
 C:\dev\WorldShopCar\src\services\WSC.Identidade.API\obj\Debug\net5.0\WSC.Identidade.API.pdb
 C:\dev\WorldShopCar\src\services\WSC.Identidade.API\obj\Debug\net5.0\WSC.Identidade.API.genruntimeconfig.cache
+C:\dev\WorldShopCar\src\services\WSC.Identidade.API\bin\Debug\net5.0\WSC.WebAPI.Core.dll
+C:\dev\WorldShopCar\src\services\WSC.Identidade.API\bin\Debug\net5.0\WSC.WebAPI.Core.pdb
