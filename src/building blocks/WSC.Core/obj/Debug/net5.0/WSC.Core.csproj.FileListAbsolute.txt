@@ -21,3 +21,4 @@ C:\dev\WorldShopCar\src\building blocks\WSC.Core\obj\Debug\net5.0\WSC.Core.cspro
 C:\dev\WorldShopCar\src\building blocks\WSC.Core\obj\Debug\net5.0\WSC.Core.dll
 C:\dev\WorldShopCar\src\building blocks\WSC.Core\obj\Debug\net5.0\ref\WSC.Core.dll
 C:\dev\WorldShopCar\src\building blocks\WSC.Core\obj\Debug\net5.0\WSC.Core.pdb
+C:\dev\WorldShopCar\src\building blocks\WSC.Core\obj\Debug\net5.0\WSC.Core.csproj.AssemblyReference.cache

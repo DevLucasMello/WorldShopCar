@@ -55,3 +55,15 @@ C:\dev\WorldShopCar\src\services\WSC.Cliente.API\obj\Debug\net5.0\WSC.Cliente.AP
 C:\dev\WorldShopCar\src\services\WSC.Cliente.API\obj\Debug\net5.0\ref\WSC.Cliente.API.dll
 C:\dev\WorldShopCar\src\services\WSC.Cliente.API\obj\Debug\net5.0\WSC.Cliente.API.pdb
 C:\dev\WorldShopCar\src\services\WSC.Cliente.API\obj\Debug\net5.0\WSC.Cliente.API.genruntimeconfig.cache
+C:\dev\WorldShopCar\src\services\WSC.Cliente.API\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\dev\WorldShopCar\src\services\WSC.Cliente.API\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\dev\WorldShopCar\src\services\WSC.Cliente.API\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\dev\WorldShopCar\src\services\WSC.Cliente.API\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\dev\WorldShopCar\src\services\WSC.Cliente.API\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\dev\WorldShopCar\src\services\WSC.Cliente.API\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\dev\WorldShopCar\src\services\WSC.Cliente.API\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\dev\WorldShopCar\src\services\WSC.Cliente.API\bin\Debug\net5.0\WSC.WebAPI.Core.dll
+C:\dev\WorldShopCar\src\services\WSC.Cliente.API\bin\Debug\net5.0\WSC.WebAPI.Core.pdb
+C:\dev\WorldShopCar\src\services\WSC.Cliente.API\obj\Debug\net5.0\WSC.Cliente.API.csproj.AssemblyReference.cache
+C:\dev\WorldShopCar\src\services\WSC.Cliente.API\bin\Debug\net5.0\WSC.Core.dll
+C:\dev\WorldShopCar\src\services\WSC.Cliente.API\bin\Debug\net5.0\WSC.Core.pdb
