@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "bJ8I3aVRQgrppcQ6czeBTUc8hKX2xbm2DjRW4tqTEfG8GvhKZYDwLO0Y9ZA3SDn3Qz4zMSF4+NuXdkSYX75KWg==",
+  "dgSpecHash": "5Mk8aLWm3V5QhnwRIVehJ9UoAJlAmfDImjr+DvSLeG+sT+tOQ5lW2Mat92RNV145qsfcN8eTkg3fhU3H8x1//Q==",
   "success": true,
   "projectFilePath": "C:\\dev\\WorldShopCar\\src\\building blocks\\WSC.WebAPI.Core\\WSC.WebAPI.Core.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Lucas\\.nuget\\packages\\fluentvalidation\\10.3.6\\fluentvalidation.10.3.6.nupkg.sha512",
     "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.12\\microsoft.aspnetcore.authentication.jwtbearer.5.0.12.nupkg.sha512",
     "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.7.1\\microsoft.identitymodel.jsonwebtokens.6.7.1.nupkg.sha512",

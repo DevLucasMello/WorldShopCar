@@ -10,9 +10,9 @@ using Microsoft.Extensions.Options;
 using System.Text;
 using Microsoft.IdentityModel.Tokens;
 using System.Linq;
-using WSC.Identidade.API.Controllers;
 using System.Collections.Generic;
 using WSC.WebAPI.Core.Identidade;
+using WSC.WebAPI.Core.Controllers;
 
 namespace WSC.Identidade.API.Configuration
 {    

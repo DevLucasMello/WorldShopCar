@@ -55,4 +55,3 @@ C:\dev\WorldShopCar\src\services\WSC.Pedido.API\obj\Debug\net5.0\WSC.Pedido.API.
 C:\dev\WorldShopCar\src\services\WSC.Pedido.API\obj\Debug\net5.0\ref\WSC.Pedido.API.dll
 C:\dev\WorldShopCar\src\services\WSC.Pedido.API\obj\Debug\net5.0\WSC.Pedido.API.pdb
 C:\dev\WorldShopCar\src\services\WSC.Pedido.API\obj\Debug\net5.0\WSC.Pedido.API.genruntimeconfig.cache
-C:\dev\WorldShopCar\src\services\WSC.Pedido.API\obj\Debug\net5.0\WSC.Pedido.API.csproj.AssemblyReference.cache

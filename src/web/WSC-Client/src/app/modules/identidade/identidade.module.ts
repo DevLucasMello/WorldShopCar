@@ -10,6 +10,7 @@ import { IdentidadeGuard } from './services/identidade-guard';
 import { RegisterAppComponent } from './components/register/register-app/register-app.component';
 import { LoginAppComponent } from './components/login/login-app/login-app.component';
 import { IdentidadeAppComponent } from './components/identidade.component';
+import { TextMaskModule } from 'angular2-text-mask';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { IdentidadeAppComponent } from './components/identidade.component';
     LoginAppComponent
   ],
   imports: [
+    TextMaskModule,
     CommonModule,
     RouterModule,
     IdentidadeRoutingModule,

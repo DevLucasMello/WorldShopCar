@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "ph+tVgWf9c2wKwf6cy0GYarOyAi27WFs2dGhevk9NRgx+D1hI0PVyLXtT2AvTwi/crmNkKqqQXVlR/H1unjKDA==",
+  "dgSpecHash": "S4T88cDGll6RESAhKM8a1ExE1QJbG7enwiyFda1lq4fn/JD+7PAEYJXK+NozG+kd8XBFVKlU5QOPx/wzrJj9wA==",
   "success": true,
   "projectFilePath": "C:\\dev\\WorldShopCar\\src\\services\\WSC.Produto.API\\WSC.Produto.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Lucas\\.nuget\\packages\\fluentvalidation\\10.3.6\\fluentvalidation.10.3.6.nupkg.sha512",
     "C:\\Users\\Lucas\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\Lucas\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
     "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.12\\microsoft.aspnetcore.authentication.jwtbearer.5.0.12.nupkg.sha512",
     "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",

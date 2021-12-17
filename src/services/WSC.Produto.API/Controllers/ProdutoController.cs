@@ -4,13 +4,13 @@ using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using WSC.Produto.API.Models;
+using WSC.WebAPI.Core.Controllers;
 
-namespace WSC.Produto.API.Controllers
-{
-    [ApiController]
+namespace WSC.Produto.API.Controllers{
+    
     [Authorize]
     [Route("api/produto")]
-    public class ProdutoController : Controller
+    public class ProdutoController : MainController
     {
         private readonly IProdutoRepository _produtoRepository;
 

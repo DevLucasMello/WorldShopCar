@@ -55,4 +55,3 @@ C:\dev\WorldShopCar\src\services\WSC.Carrinho.API\obj\Debug\net5.0\WSC.Carrinho.
 C:\dev\WorldShopCar\src\services\WSC.Carrinho.API\obj\Debug\net5.0\ref\WSC.Carrinho.API.dll
 C:\dev\WorldShopCar\src\services\WSC.Carrinho.API\obj\Debug\net5.0\WSC.Carrinho.API.pdb
 C:\dev\WorldShopCar\src\services\WSC.Carrinho.API\obj\Debug\net5.0\WSC.Carrinho.API.genruntimeconfig.cache
-C:\dev\WorldShopCar\src\services\WSC.Carrinho.API\obj\Debug\net5.0\WSC.Carrinho.API.csproj.AssemblyReference.cache

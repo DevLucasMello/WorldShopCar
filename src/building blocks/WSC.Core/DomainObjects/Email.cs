@@ -1,7 +1,6 @@
 ﻿using System.Text.RegularExpressions;
-using WSC.Core.DomainObjects;
 
-namespace WSC.Cliente.API.Models
+namespace WSC.Core.DomainObjects
 {
     public class Email
     {

@@ -55,4 +55,3 @@ C:\dev\WorldShopCar\src\services\WSC.Pagamento.API\obj\Debug\net5.0\WSC.Pagament
 C:\dev\WorldShopCar\src\services\WSC.Pagamento.API\obj\Debug\net5.0\ref\WSC.Pagamento.API.dll
 C:\dev\WorldShopCar\src\services\WSC.Pagamento.API\obj\Debug\net5.0\WSC.Pagamento.API.pdb
 C:\dev\WorldShopCar\src\services\WSC.Pagamento.API\obj\Debug\net5.0\WSC.Pagamento.API.genruntimeconfig.cache
-C:\dev\WorldShopCar\src\services\WSC.Pagamento.API\obj\Debug\net5.0\WSC.Pagamento.API.csproj.AssemblyReference.cache

@@ -6,6 +6,8 @@ import { Usuario } from '../../../models/Usuario';
 import { IdentidadeService } from '../../../services/identidade-service';
 import { FormBaseComponent } from 'src/app/utils/form-base.component';
 import { CustomValidators } from 'ng2-validation';
+import { MASKS, NgBrazilValidators } from 'ng-brazil';
+import { StringUtils } from 'src/app/utils/string-utils';
 
 @Component({
   selector: 'app-register-app',
@@ -20,6 +22,8 @@ export class RegisterAppComponent extends FormBaseComponent implements OnInit, A
   cadastroForm: FormGroup;
   usuario: Usuario;
 
+  public MASKS = MASKS;
+
   constructor(private fb: FormBuilder,
     private identidadeService: IdentidadeService,
     private router: Router,
@@ -28,6 +32,13 @@ export class RegisterAppComponent extends FormBaseComponent implements OnInit, A
     super();
 
     this.validationMessages = {
+      nome: {
+        required: 'Informe o Nome',
+      },
+      cpf: {
+        required: 'Informe o Cpf',
+        cpf: 'CPF em formato inválido',
+      },
       email: {
         required: 'Informe o e-mail',
         email: 'Email inválido'
@@ -52,6 +63,8 @@ export class RegisterAppComponent extends FormBaseComponent implements OnInit, A
     let senhaConfirm = new FormControl('', [Validators.required, CustomValidators.rangeLength([6, 15]), CustomValidators.equalTo(senha)]);
 
     this.cadastroForm = this.fb.group({
+      nome: ['', [Validators.required]],
+      cpf: ['', [Validators.required, NgBrazilValidators.cpf]],
       email: ['', [Validators.required, Validators.email]],
       senha: senha,
       senhaConfirmacao: senhaConfirm
@@ -65,6 +78,7 @@ export class RegisterAppComponent extends FormBaseComponent implements OnInit, A
   adicionarConta() {
     if (this.cadastroForm.dirty && this.cadastroForm.valid) {
       this.usuario = Object.assign({}, this.usuario, this.cadastroForm.value);
+      this.usuario.cpf = StringUtils.somenteNumeros(this.usuario.cpf);
 
       this.identidadeService.registro(this.usuario)
         .subscribe(
